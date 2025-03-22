@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#calculator {
+    border: 2px solid #8b9547;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(255, 135, 135);  
+    box-shadow: 0 0 20px rgb(247, 184, 49),
+    inset 0 0 15px rgb(36, 123, 123);
+}
+
+#heading{
+    background-color: rgb(193, 114, 202);
+    color: #9bd63e;;;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(41, 162, 198),
+    inset 0 0 15px rgb(196, 221, 51);
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    width: 180px;
+    background-color: black;
+    color: white;
+   
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    border: 1.5px solid #c6c440;
+    border-radius: 15px;
+    background-color: #be4c7e;
+    color: #9ed0d9;
+    box-shadow: 0 0 20px rgb(149, 151, 47),
+    inset 0 0 15px rgb(212, 188, 104);
+}
+
+button:active {
+    background-color: #f0a07e;
+    box-shadow: inset 0 0 10px #444;
+}
+
+
+button:hover {
+    background-color: #1f598be3;
+}
+
+@media (max-width: 500px) {
+    #calculator {
+        width: 90%;
+    }
+    input {
+        width: 100%;
+    }
+    button {
+        width: 20%;
+    }
+}
+
+
+h6{    
+    color: #36dbdb;  
+    text-align: bottom;
+    position: absolute;
+    left: 45%;
+    bottom: 2%;
+    box-shadow: 0 0 20px rgb(48, 188, 231),
+                    inset 0 0 15px rgb(51, 193, 221);
+                    font-family: Arial, sans-serif;
+                    font-weight: bold;
+                    
+}
